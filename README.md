@@ -46,16 +46,16 @@ photo.jpg → photo_shorts.jpg
 
 ### 1️⃣ Clone the repository
 
-git clone https://github.com/your-username/thumbnail-generator.git\
+git clone https://github.com/Full-Stack-Architect/youtube-thumbnail-generator.git\
 cd thumbnail-generator
 
 ### 2️⃣ Install dependencies
 
-pip install pillow
+pip install ImageFilter
 
 ### 3️⃣ Run the app
 
-python app.py
+python thumbnail.py
 
 ------------------------------------------------------------------------
 
@@ -71,7 +71,7 @@ python app.py
 ## 📦 Convert to EXE
 
 pip install pyinstaller\
-pyinstaller --onefile --windowed app.py
+pyinstaller --onefile --windowed thumbnail.py
 
 Output:
 
@@ -82,7 +82,7 @@ dist/ThumbnailGenerator.exe
 ## 📁 Project Structure
 
 thumbnail-generator\
-│── app.py\
+│── thumbnail.py\
 │── README.md\
 │── requirements.txt
 
